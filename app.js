@@ -1,9 +1,10 @@
 function myFunction() {
-  var element = document.getElementById("element");
-  element.style.borderBottomRightRadius = "25px";
-}
   
-  function myFunction1() {
-  var element = document.getElementById("element");
-  element.style.borderBottomRightRadius = "255px";
+  document.getElementById("myDIV").style.borderBottomRightRadius = "100px";
+  document.getElementById("myDIV").style.transition = "all 2s";
+}
+
+function myFunction1() {
+  document.getElementById("myDIV").style.borderBottomRightRadius = "255px";
+  document.getElementById("myDIV").style.transition = "all 2s";
 }
